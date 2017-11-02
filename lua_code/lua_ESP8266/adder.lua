@@ -1,0 +1,5 @@
+io.write("Input A: ")
+a = io.read()
+io.write("Input B: ")
+b = io.read()
+io.write("A + B = " .. a+b .. "\n")

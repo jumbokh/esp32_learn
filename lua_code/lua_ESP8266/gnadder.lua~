@@ -1,0 +1,5 @@
+for i = 1,n do
+    a = io.read()
+    if a == "end" then break end
+    sum = sum + a
+end
