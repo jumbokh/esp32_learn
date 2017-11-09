@@ -63,7 +63,7 @@ void loop() {
   int t = dht.readTemperature();
   
   // This will send the request to the server
-  client.print(String("GET /dweet/for/csu_iot1061?temperature=") + String(t) + "&humidity=" + String(h) + " HTTP/1.1\r\n" +
+  client.print(String("GET /dweet/for/csu_iotcvlab?temperature=") + String(t) + "&humidity=" + String(h) + " HTTP/1.1\r\n" +
                "Host: " + host + "\r\n" + 
                "Connection: close\r\n\r\n");
   delay(10);
